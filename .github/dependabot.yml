@@ -60,6 +60,8 @@ updates:
     ignore:
       - dependency-name: '@angular*'
         update-types: ['version-update:semver-major']
+      - dependency-name: '@angular-devkit/build-angular'
+        update-types: ['version-update:semver-major']
       - dependency-name: '@types/iframe-resizer'
         update-types: ['version-update:semver-major']
       - dependency-name: '@types/node'
